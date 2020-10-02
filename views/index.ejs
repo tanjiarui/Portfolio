@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <style>
+    .container {
+      min-height: calc(75vh);
+    }
+    #fh5co-portrait {
+        z-index: -1;
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        -moz-transition: 0.2s;
+        -o-transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -ms-transition: 0.2s;
+        transition: 0.2s;
+        opacity: 0.5
+      }
+      @media screen and (max-width: 992px) {
+        #fh5co-portrait {
+          width: 100%;
+          position: relative;
+          height: 700px;
+          overflow: inherit;
+          left: 0;
+          right: 0;
+          float: left;
+          width: 100%;
+        }
+      }
+  </style>
+</head>
+<body>
+  <%-include("./header.ejs")%>
+  <div class="container">
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Welcome to my space</h1>
+        <p class="lead my-3">So do all who live to see such times, but that is not for them to decide. All we have to decide is what to do with the time that is given to us.</p>
+      </div>
+    </div>
+    </div>
+  <div id="fh5co-portrait" style="background-image: url(/public/images/background.jpg);" data-minheight="500"></div>
+  <%-include("./footer.ejs")%>
+</body>
+</html>

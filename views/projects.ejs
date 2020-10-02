@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+	<!-- Theme Style -->
+	<link rel="stylesheet" href="/public/css/style.css">
+</head>
+  <body>
+    <%-include("./header.ejs")%>
+    <section class="page-header">
+      <h1 class="project-name">projects</h1>
+    </section>
+    <div id="body" class="main-content">
+      <ul>
+        <li>Validation of Model Quantization for Deep Learning</li>
+        <span style="text-indent:2em;">Testing the C++ based deep learning model quantizer developed by team, and comparing the runtime and precision of quantized and not quantized models. It turned out with only 0.015 mAP loss and compressed runtime by 30%.</span>
+        <li>PCD 2nd Purchase Conversion</li>
+        <span style="text-indent:2em;">Analyzing client CRM data and extracting features, then building a model to predict the second purchase propensity, and delivering the model result to our client. Sales could be improved after industrialization. Currently, 77% accuracy and 71% F1 score are ensured.</span>
+        <li>Portfolio 2030</li>
+        <span style="text-indent:2em;">Collecting and compiling reports from our client, and predicting the future volume based on the past growth rate. Two phases are mainly separated. First, taking the complete work flow on Excel. Then, automating the process of data collection, calculation & analysis and result visualization via Airflow.</span>
+        <li>Big Data Case Study</li>
+        <span style="text-indent:2em;">Implimenting SQL query and reorganizing data for a visualization. Details can be found <a href="https://github.com/tanjiarui/Artefact_case/blob/master/question.md">here</a>.</span>
+      </ul>
+    </div>
+  </body>
+  <%-include("./footer.ejs")%>
+</html>
