@@ -1,5 +1,5 @@
-const express = require('express');
-const router = express.Router();
+let express = require('express');
+let router = express.Router();
 
 /*GET home page*/
 router.get('/', function(req, res, next) {
@@ -17,8 +17,5 @@ router.get('/projects', function(req, res, next) {
 router.get('/services', function(req, res, next) {
   res.render('services');
 });
-/*contactme*/
-router.get('/contactme', function(req, res, next) {
-  res.render('contactme');
-});
+
 module.exports = router;
