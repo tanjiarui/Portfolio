@@ -15,25 +15,44 @@
     <table class="table table-bordered table-striped table-hover">
       <!-- Header Row-->
       <tr>
+<<<<<<< Updated upstream
           <th class="text-center col-2">Name</th>
           <th class="text-center col-2">Phone</th>
           <th class="text-center col-6">Email</th>
           <th class="text-center col-2"></th>
           <th class="text-center col-2"></th>
+=======
+          <th class="text-center col-2 align-middle">Name</th>
+          <th class="text-center col-2 align-middle">Phone</th>
+          <th class="text-center col-6 align-middle">Email</th>
+          <th class="text-center col-2 align-middle"></th>
+          <th class="text-center col-2 align-middle"></th>
+>>>>>>> Stashed changes
       </tr>
       <!-- Repeatable Template Row -->
       <% for(let count = 0; count < contact_list.length; count++) { %>
         <tr >
+<<<<<<< Updated upstream
           <td class="text-center col-2"><%= contact_list[count].name %></td>
           <td class="text-center col-2"><%= contact_list[count].phone %></td>
           <td class="text-center col-6"><%= contact_list[count].email %></td>
           <td class="text-center col-2">
+=======
+          <td class="text-center col-2 align-middle"><%= contact_list[count].name %></td>
+          <td class="text-center col-2 align-middle"><%= contact_list[count].phone %></td>
+          <td class="text-center col-6 align-middle"><%= contact_list[count].email %></td>
+          <td class="text-center col-2 align-middle">
+>>>>>>> Stashed changes
             <a href="/contact/edit/<%= contact_list[count]._id %>" class="btn btn-primary btn-sm"
               style="margin-bottom: 0;">
               <i class="fas fa-pencil-alt"></i> Edit
             </a>
           </td>
+<<<<<<< Updated upstream
           <td class="text-center col-2">
+=======
+          <td class="text-center col-2 align-middle">
+>>>>>>> Stashed changes
             <a href="/contact/delete/<%= contact_list[count]._id %>" class="btn btn-danger btn-sm"
               style="margin-bottom: 0;">
               <i class="fas fa-trash-alt"></i> Delete
