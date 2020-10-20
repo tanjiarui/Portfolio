@@ -15,60 +15,25 @@
     <table class="table table-bordered table-striped table-hover">
       <!-- Header Row-->
       <tr>
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-          <th class="text-center col-2">Name</th>
-          <th class="text-center col-2">Phone</th>
-          <th class="text-center col-6">Email</th>
-          <th class="text-center col-2"></th>
-          <th class="text-center col-2"></th>
-=======
->>>>>>> 4445f50d056d8f8930beca3f79033f0ba1988cd7
           <th class="text-center col-2 align-middle">Name</th>
           <th class="text-center col-2 align-middle">Phone</th>
           <th class="text-center col-6 align-middle">Email</th>
           <th class="text-center col-2 align-middle"></th>
           <th class="text-center col-2 align-middle"></th>
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> 4445f50d056d8f8930beca3f79033f0ba1988cd7
       </tr>
       <!-- Repeatable Template Row -->
       <% for(let count = 0; count < contact_list.length; count++) { %>
         <tr >
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-          <td class="text-center col-2"><%= contact_list[count].name %></td>
-          <td class="text-center col-2"><%= contact_list[count].phone %></td>
-          <td class="text-center col-6"><%= contact_list[count].email %></td>
-          <td class="text-center col-2">
-=======
->>>>>>> 4445f50d056d8f8930beca3f79033f0ba1988cd7
           <td class="text-center col-2 align-middle"><%= contact_list[count].name %></td>
           <td class="text-center col-2 align-middle"><%= contact_list[count].phone %></td>
           <td class="text-center col-6 align-middle"><%= contact_list[count].email %></td>
           <td class="text-center col-2 align-middle">
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> 4445f50d056d8f8930beca3f79033f0ba1988cd7
             <a href="/contact/edit/<%= contact_list[count]._id %>" class="btn btn-primary btn-sm"
               style="margin-bottom: 0;">
               <i class="fas fa-pencil-alt"></i> Edit
             </a>
           </td>
-<<<<<<< HEAD
           <td class="text-center col-2 align-middle">
-=======
-<<<<<<< Updated upstream
-          <td class="text-center col-2">
-=======
-          <td class="text-center col-2 align-middle">
->>>>>>> Stashed changes
->>>>>>> 4445f50d056d8f8930beca3f79033f0ba1988cd7
             <a href="/contact/delete/<%= contact_list[count]._id %>" class="btn btn-danger btn-sm"
               style="margin-bottom: 0;">
               <i class="fas fa-trash-alt"></i> Delete
