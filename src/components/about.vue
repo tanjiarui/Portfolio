@@ -8,7 +8,7 @@ defineOptions({
 	<section class='page-header'>
 		<h1 class='project-name'>about me</h1>
 		<h2 class='project-tagline'>Special in machine/deep learning, data mining and feature engineering.</h2>
-		<img src='@/portrait.jpg' height=100 alt='portrait'/>
+		<img src='/portrait.jpg' height=100 alt='portrait'/>
 	</section>
 	<div id='body' class='main-content'>
 		<h2 id='-'>Skill</h2>
