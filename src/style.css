@@ -176,7 +176,6 @@ a:hover {
 	width: 100%;
 	overflow: auto;
 	word-break: normal;
-	word-break: keep-all
 }
 
 .main-content table th {
@@ -390,7 +389,7 @@ a:hover {
 	justify-content: center;
 	width: 100%;
 	overflow: hidden;
-	background-image: url(/public/background.jpg);
+	background-image: url(/image/background.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

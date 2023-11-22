@@ -8,7 +8,7 @@ defineOptions({
 	<section class='page-header'>
 		<h1 class='project-name'>about me</h1>
 		<h2 class='project-tagline'>Special in machine/deep learning, data mining and feature engineering.</h2>
-		<img src='/public/portrait.jpg' height=100 alt='portrait'/>
+		<img src='/public/image/portrait.jpg' height=100 alt='portrait'/>
 	</section>
 	<div id='body' class='main-content'>
 		<h2 id='-'>Skill</h2>
@@ -66,7 +66,7 @@ defineOptions({
 		<hr>
 		<h2 id='-'>Education</h2>
 		<p>2016.9-2020.6丨University of Science and Technology of China丨Software Engineering丨Master of Engineering</p>
-		<button type='button' class='btn' onclick="window.open('/public/CV.pdf','_blank')" title='resume'>
+		<button type='button' class='btn' onclick="window.open('/file/CV.pdf','_blank')" title='resume'>
 			<svg width='40' height='40' viewBox='0 0 16 16' class='bi bi-paperclip' fill='black'
 			     xmlns='http://www.w3.org/2000/svg'>
 				<path fill-rule='evenodd'
