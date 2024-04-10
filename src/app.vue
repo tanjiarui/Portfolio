@@ -1,10 +1,10 @@
 <script setup lang='ts'>
-import custom_header from './components/custom-header.vue'
-import custom_footer from './components/custom-footer.vue'
+import customHeader from './components/custom-header.vue'
+import customFooter from './components/custom-footer.vue'
 import home from './components/home.vue'
 import about from './components/about.vue'
 import project from './components/project.vue'
-import {Ref, ref, computed} from 'vue'
+import {computed, ref, Ref} from 'vue'
 
 defineOptions({
 	name: 'app'
@@ -36,7 +36,7 @@ let current_page = computed(() => {
 </script>
 
 <template>
-	<custom_header @page_info='get_page'/>
+	<custom-header @page_info='get_page'/>
 	<component :is='current_page'/>
-	<custom_footer/>
+	<custom-footer/>
 </template>
